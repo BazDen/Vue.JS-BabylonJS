@@ -3,13 +3,7 @@
 </head>
 <template>
    <div class="app align-items-center">
-      <b-nav pills class="navbar">
-      <b-navbar-brand class="navbar-brand" to="../About"></b-navbar-brand>
-      <b-nav-item class="px-0" to="../About" style="border-radius:5px 5px 0 0">About</b-nav-item>
-      <b-nav-item class="px-0" to="../News">News</b-nav-item>
-      <b-nav-item class="px-0" active to="../ConfigMaker">Config maker<br>(PROTOTYPE)</b-nav-item>
-      <b-nav-item class="px-0"  to="../IMonitor">IoT monitoring</b-nav-item>
-    </b-nav>
+
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-2">
@@ -138,12 +132,6 @@
                      :max-rows="100">
                   </b-form-textarea><br>
                 </b-form>
-                <center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="6WQA8E4M4PJXY">
-                <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
-                </form></center>
           </div>
         </div>
       </div>
